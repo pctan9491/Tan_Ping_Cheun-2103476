@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tan_ping_cheun_2103476">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="touch GAME"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Tan_Ping_Cheun2103476">
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity
+            android:name=".ScoreDatabase"
+            android:exported="false" />
+        <activity
+            android:name=".ScoreTable"
+            android:exported="false" />
+        <activity
+            android:name=".activityLevel5"
+            android:exported="false" />
+        <activity
+            android:name=".activityLevel4"
+            android:exported="false" />
+        <activity
+            android:name=".activity_level3"
+            android:exported="false" />
+        <activity
+            android:name=".activityLevel2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+        </activity>
+    </application>
+
+</manifest>
