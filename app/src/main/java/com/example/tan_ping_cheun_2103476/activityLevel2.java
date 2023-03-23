@@ -101,7 +101,7 @@ public class activityLevel2 extends AppCompatActivity {
     }
     private void resetGame() {
         totalScore = getIntent().getIntExtra("score", 0);
-        remainingTime = 5000;
+        remainingTime = 10000;
         scoreText.setText("Score: " + totalScore);
         for (View view : views) {
             view.setOnClickListener(null);
